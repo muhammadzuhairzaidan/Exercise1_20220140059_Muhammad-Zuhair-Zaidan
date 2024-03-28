@@ -1,0 +1,52 @@
+body {
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex; /* Gunakan flexbox */
+    flex-direction: column; /* Tata letak kolom */
+    align-items: center; /* Posisikan elemen secara vertikal di tengah */
+    justify-content: center; /* Posisikan elemen secara horizontal di tengah */
+    height: 70vh; /* Gunakan tinggi 100% dari viewport */
+    border: 2px solid black; /* Tambahkan border */
+    padding: 60px; /* Tambahkan padding */
+    border-radius: 60px; /* Tambahkan sudut lengkung */
+    max-width: 970px; /* Batasi lebar maksimum */
+    margin: 0 auto; /* Pusatkan container */
+    margin-top: 20px;
+  
+    gap: 50px;
+  }
+  
+  .content {
+    padding-top: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+
+  button{
+    padding: 8px 10px;
+    background-color: beige;
+    font-family: "Lucidia Sans", "Lucidia Sans Regular", "Lucidia Grande","Lucidia Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: large;
+  }
